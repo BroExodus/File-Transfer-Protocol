@@ -34,8 +34,3 @@ ClientFile        -> Directory that contains the files for the server
 Makefile          -> Build the program
 fileCreator       -> Creates files to test the program with.
 bash.sh           -> Runs 100 clients
-
-Note:
-The program for some reason snowballs the clients together past a certain point when it comes to the tput
-and exit command. The tget works perfectly fine, but when running with > 60 clients, the program skips
-20% of the exit and tput commands. Running <= ~60 clients produces a valid output for all tasks.  
