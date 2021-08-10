@@ -1,4 +1,4 @@
-Exercise 1 - Socket Programming
+Socket Programming
 By Georgi Thomas
 
 Creates a threaded server that allows user to upload files to the server. 
